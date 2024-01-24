@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #c8d6e5;
+    --green: #1dd1a1;
+    --darkgreen: #10ac84;
+    --grey: #576574;
+}
+
+.page-actions-cont {
+    height: 3rem;
+    background-color: var(--darkgreen);
+}
+
+.cellprops-actions-cont {
+    height: 2.5rem;
+    background-color: var(--green);
+    border-bottom: 1px solid var(--grey);
+}
+
+.formula-actions-cont {
+    height: 2.5rem;
+    background-color: var(--green);
+    border-bottom: 1px solid var(--grey);
+}
+
+.grid-cont {
+    height: calc(100vh - (3rem + 3rem + 2.5rem + 2.5rem));
+    background-color: var(--primary);
+}
+
+.sheet-cont {
+    height: 3rem;
+    background-color: var(--darkgreen);
+}
