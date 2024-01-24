@@ -9,11 +9,13 @@
     --green: #1dd1a1;
     --darkgreen: #10ac84;
     --grey: #576574;
+    --white: #fff;
 }
 
 .page-actions-cont {
     height: 3rem;
     background-color: var(--darkgreen);
+    padding: 0 1em;
 }
 
 .cellprops-actions-cont {
@@ -36,4 +38,24 @@
 .sheet-cont {
     height: 3rem;
     background-color: var(--darkgreen);
+}
+
+ul.page-action {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+ul.page-action li {
+    padding: 0 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+}
+
+ul.page-action li:hover {
+    background-color: var(--green);
 }
