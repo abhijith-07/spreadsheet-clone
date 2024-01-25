@@ -12,32 +12,12 @@
     --white: #fff;
 }
 
+/* PAGE ACTIONS */
+
 .page-actions-cont {
     height: 3rem;
     background-color: var(--darkgreen);
     padding: 0 1em;
-}
-
-.cellprops-actions-cont {
-    height: 2.5rem;
-    background-color: var(--green);
-    border-bottom: 1px solid var(--grey);
-}
-
-.formula-actions-cont {
-    height: 2.5rem;
-    background-color: var(--green);
-    border-bottom: 1px solid var(--grey);
-}
-
-.grid-cont {
-    height: calc(100vh - (3rem + 3rem + 2.5rem + 2.5rem));
-    background-color: var(--primary);
-}
-
-.sheet-cont {
-    height: 3rem;
-    background-color: var(--darkgreen);
 }
 
 ul.page-action {
@@ -58,4 +38,51 @@ ul.page-action li {
 
 ul.page-action li:hover {
     background-color: var(--green);
+}
+
+/* CELL PROPS ACTIONS */
+
+.cellprops-actions-cont {
+    height: 2.5rem;
+    background-color: var(--green);
+    border-bottom: 1px solid var(--grey);
+    display: flex;
+    align-items: center;
+    gap: .15rem;
+}
+
+.cell-action {
+    padding: 0 .25rem;
+    cursor: pointer;
+}
+
+.cell-action:hover {
+    color: var(--grey);
+}
+
+.font-family-prop {
+    margin-right: .5rem;
+}
+
+
+/* FORMULA ACTIONS */
+
+.formula-actions-cont {
+    height: 2.5rem;
+    background-color: var(--green);
+    border-bottom: 1px solid var(--grey);
+}
+
+/* GRID CONTAINER */
+
+.grid-cont {
+    height: calc(100vh - (3rem + 3rem + 2.5rem + 2.5rem));
+    background-color: var(--primary);
+}
+
+/* SHEET CONTAINER */
+
+.sheet-cont {
+    height: 3rem;
+    background-color: var(--darkgreen);
 }
