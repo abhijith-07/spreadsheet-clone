@@ -76,13 +76,44 @@ ul.page-action li:hover {
 /* GRID CONTAINER */
 
 .grid-cont {
-    height: calc(100vh - (3rem + 3rem + 2.5rem + 2.5rem));
+    height: calc(100vh - (3rem + 4rem + 2.5rem + 2.5rem));
     background-color: var(--primary);
 }
 
 /* SHEET CONTAINER */
 
 .sheet-cont {
-    height: 3rem;
+    height: 4rem;
     background-color: var(--darkgreen);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.sheet-cont > * {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.sheet-add-icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sheets-folder-container {
+    display: flex;
+    height: 1.25rem;
+    align-items: end;
+    font-weight: 600;
+}
+
+.sheet-folder {
+    padding-right: 1rem;
+    text-decoration: underline 0.25rem var(--primary);
+    cursor: pointer;
+}
+
+.sheet-folder:hover {
+    color: var(--white);
+    text-decoration-color: var(--green);
 }
