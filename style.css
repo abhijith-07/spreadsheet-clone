@@ -49,6 +49,7 @@ ul.page-action li:hover {
     display: flex;
     align-items: center;
     gap: .15rem;
+    padding: 0 2rem;
 }
 
 .cell-action {
@@ -71,6 +72,36 @@ ul.page-action li:hover {
     height: 2.5rem;
     background-color: var(--green);
     border-bottom: 1px solid var(--grey);
+    display: flex;
+    padding: 0.5rem 2rem;
+}
+
+.cell-address {
+    width: 5rem;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.formula-container {
+    display: flex;
+    width: 100%;
+}
+
+.fx {
+    width: 2rem;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    color: #404f4d;
+}
+
+.formula-bar {
+    height: 100%;
+    width: calc(100% - 2rem);
+    outline: none;
+    border: none;
 }
 
 /* GRID CONTAINER */
