@@ -111,6 +111,29 @@ ul.page-action li:hover {
     background-color: var(--primary);
 }
 
+.dummy-cell {
+    height: 2rem;
+    width: 2rem;
+    background-color: violet;
+}
+
+.row-names {
+    background-color: blue;
+    height: 10rem;
+    width: 2rem;
+}
+
+.column-names {
+    height: 2rem;
+    position: absolute;
+    background-color: green;
+}
+
+.cells {
+    height: calc(100vh - (13.5rem));
+    background-color: red;
+}
+
 /* SHEET CONTAINER */
 
 .sheet-cont {
