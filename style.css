@@ -109,18 +109,24 @@ ul.page-action li:hover {
 .grid-cont {
     height: calc(100vh - (3rem + 4rem + 2.5rem + 2.5rem));
     background-color: var(--primary);
+    margin: .25rem;
 }
 
 .dummy-cell {
     height: 2rem;
     width: 2rem;
-    background-color: violet;
 }
 
-.row-names {
-    background-color: blue;
+.row-names-container {
     height: 10rem;
     width: 2rem;
+}
+
+.row-names-container .row-name {
+    width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+    border: 1px solid black;
 }
 
 .column-names {
@@ -131,7 +137,8 @@ ul.page-action li:hover {
 
 .cells {
     height: calc(100vh - (13.5rem));
-    background-color: red;
+    background-color: chocolate;
+    display: flex;
 }
 
 /* SHEET CONTAINER */
